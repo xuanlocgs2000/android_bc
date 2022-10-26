@@ -11,7 +11,6 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     }
     //Database handler là một class mà Android cho phép bạn xử lý các thao tác đối với database của SQLite,
     //vì vậy bạn có thể tạo một class khác thừa kế nó và tùy chỉnh việc điều khiển database theo ý mình
-
     //Truy vấn không trả kết quả, thêm, cập nhập, xóa.
     public void QueryData(String sql){
        SQLiteDatabase database=getWritableDatabase();
@@ -25,13 +24,13 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        //Tính năng đang được các nhà phát triển cập nhập :v
+
 
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-        //Tính năng đang được các nhà phát triển cập nhập :v
+
 
     }
 }
