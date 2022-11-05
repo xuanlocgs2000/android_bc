@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle actionBarDrawerToggle;
 
-    String tenWeb[] = {"ThanhNien.vn", "VnExpress.net", "TienPhong.vn", "24h.com.vn", "DanViet.vn", "Tin Đã Lưu"};
-    int[] iconWeb = {R.drawable.thanhnien, R.drawable.ic_exx, R.drawable.ic_tienphong, R.drawable.ic_24h, R.drawable.ic_danviet, R.mipmap.star};
+    String tenWeb[] = {"ThanhNien.vn", "VnExpress.net", "TienPhong.vn", "24h.com.vn", "DanViet.vn", "Tin Đã Lưu","Đọc gần đây"};
+    int[] iconWeb = {R.drawable.thanhnien, R.drawable.ic_exx, R.drawable.ic_tienphong, R.drawable.ic_24h, R.drawable.ic_danviet, R.mipmap.star,R.mipmap.star};
     ListView lvWebsite;
 
     @Override
@@ -439,61 +439,61 @@ public class MainActivity extends AppCompatActivity {
 
             //24h
             case R.id.mn_24h_tc:
-                link = "http://www.24h.com.vn/upload/rss/tintuctrongngay.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/trangchu24h.rss";
                 break;
             case R.id.mn_24h_bd:
-                link = "http://www.24h.com.vn/upload/rss/bongda.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/bongda.rss";
                 break;
             case R.id.mn_24h_anhs:
-                link = "http://www.24h.com.vn/upload/rss/anninhhinhsu.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/anninhhinhsu.rss";
                 break;
             case R.id.mn_24h_tt:
-                link = "http://www.24h.com.vn/upload/rss/thoitrang.rss";
+                link = "hhttps://cdn.24h.com.vn/upload/rss/thoitrang.rss";
                 break;
             case R.id.mn_24h_tcbds:
-                link = "http://www.24h.com.vn/upload/rss/taichinhbatdongsan.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/taichinhbatdongsan.rss";
                 break;
             case R.id.mn_24h_at:
-                link = "http://www.24h.com.vn/upload/rss/amthuc.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/amthuc.rss";
                 break;
             case R.id.mn_24h_ld:
-                link = "http://www.24h.com.vn/upload/rss/lamdep.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/lamdep.rss";
                 break;
             case R.id.mn_24h_phim:
-                link = "http://www.24h.com.vn/upload/rss/phim.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/phim.rss";
                 break;
             case R.id.mn_24h_gddh:
-                link = "http://www.24h.com.vn/upload/rss/giaoducduhoc.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/giaoducduhoc.rss";
                 break;
             case R.id.mn_24h_btcs:
-                link = "http://www.24h.com.vn/upload/rss/bantrecuocsong.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/bantrecuocsong.rss";
                 break;
             case R.id.mn_24h_tt2:
-                link = "http://www.24h.com.vn/upload/rss/thethao.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/thethao.rss";
                 break;
             case R.id.mn_24h_cntt:
-                link = "http://www.24h.com.vn/upload/rss/congnghethongtin.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/congnghethongtin.rss";
                 break;
             case R.id.mn_24h_otoxm:
-                link = "http://www.24h.com.vn/upload/rss/otoxemay.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/otoxemay.rss";
                 break;
             case R.id.mn_24h_dl:
-                link = "http://www.24h.com.vn/upload/rss/dulich.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/dulich.rss";
                 break;
             case R.id.mn_24h_skds:
-                link = "http://www.24h.com.vn/upload/rss/suckhoedoisong.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/suckhoedoisong.rss";
                 break;
             case R.id.mn_24h_cuoi24h:
-                link = "http://www.24h.com.vn/upload/rss/cuoi24h.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/cuoi24h.rss";
                 break;
             case R.id.mn_24h_tg:
-                link = "http://www.24h.com.vn/upload/rss/tintucquocte.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/tintucquocte.rss";
                 break;
             case R.id.mn_24h_dss:
-                link = "http://www.24h.com.vn/upload/rss/doisongshowbiz.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/doisongshowbiz.rss";
                 break;
             case R.id.mn_24h_gt:
-                link = "http://www.24h.com.vn/upload/rss/giaitri.rss";
+                link = "https://cdn.24h.com.vn/upload/rss/giaitri.rss";
                 break;
 
 
@@ -712,7 +712,7 @@ public class MainActivity extends AppCompatActivity {
                     linkWeb = "https://tienphong.vn/rss/home.rss";
                     titleWeb = "TienPhong.vn";
                 } else if (i == 3) {
-                    linkWeb = "http://www.24h.com.vn/upload/rss/tintuctrongngay.rss";
+                    linkWeb = "https://cdn.24h.com.vn/upload/rss/tintuctrongngay.rss";
                     titleWeb = "24h.com.vn";
 
                 } else if (i == 4) {

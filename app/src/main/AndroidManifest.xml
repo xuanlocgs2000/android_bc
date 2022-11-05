@@ -13,9 +13,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/newspaper"
+        android:icon="@mipmap/logo2"
         android:label="Tổng hợp tin tức"
-        android:roundIcon="@mipmap/newspaper"
+        android:roundIcon="@mipmap/logo2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.android.docbao.MainActivity.MainActivity">
