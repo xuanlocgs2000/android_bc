@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<ArticleObject> arrArticle2= new ArrayList<ArticleObject>();
 
 
-    static String linkWeb = "https://tienphong.vn/rss/home.rss";
-    static String titleWeb = "tienphong.vn";
+    static String linkWeb = "https://thanhnien.vn/rss/home.rss";
+    static String titleWeb = "ThanhNien.vn";
     static int idWebSite = 0;
     MenuItem itemMenu_type_article;
     public static DatabaseHandler databaseArticleWasRead;
@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle actionBarDrawerToggle;
 
-    String tenWeb[] = {"ThanhNien.vn", "VnExpress.net", "TienPhong.vn", "24h.com.vn", "DanViet.vn", "Tin Đã Lưu","Đọc gần đây"};
-    int[] iconWeb = {R.drawable.thanhnien, R.drawable.ic_exx, R.drawable.ic_tienphong, R.drawable.ic_24h, R.drawable.ic_danviet, R.mipmap.star,R.mipmap.star};
+    String tenWeb[] = {"ThanhNien.vn", "VnExpress.net", "TienPhong.vn", "24h.com.vn", "DanViet.vn", "Tin Đã Lưu"};
+    int[] iconWeb = {R.drawable.thanhnien, R.drawable.ic_exx, R.drawable.ic_tienphong, R.drawable.ic_24h, R.drawable.ic_danviet, R.mipmap.star};
     ListView lvWebsite;
 
     @Override

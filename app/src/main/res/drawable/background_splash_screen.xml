@@ -8,7 +8,9 @@
 </item>
  <item>
   <bitmap
-      android:src="@drawable/kinhdoanh"
-      android:gravity="bottom"/>
+      android:src="@drawable/logoact1"
+      android:gravity="bottom"
+      />
+
  </item>
 </layer-list>

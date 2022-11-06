@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/mn_ex"
-        android:icon="@drawable/homevv"
+        android:icon="@drawable/scrolldown3"
         android:title="Menu"
         app:showAsAction="always">
         >
